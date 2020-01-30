@@ -11,23 +11,3 @@ end
 def position_taken?(board, index)
   return !(board[index] == " " || board[index] == "" || board[index] == nil)
 end
-
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-index = 0
-puts(position_taken?(board, index))
-puts(valid_move?(board, index))
-
-board = [" ", " ", "X", " ", " ", " ", " ", "O", " "]
-index = 5
-puts(position_taken?(board, index))
-puts(valid_move?(board, index))
-
-board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-index = 4
-puts(position_taken?(board, index))
-puts(valid_move?(board, index))
-
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-index = 100
-puts(position_taken?(board, index))
-puts(valid_move?(board, index))
