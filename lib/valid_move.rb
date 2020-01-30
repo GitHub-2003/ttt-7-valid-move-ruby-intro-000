@@ -12,3 +12,19 @@ end
 def position_taken?(board, index)
   return !(board[index] == " " || board[index] == "" || board[index] == nil)
 end
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+index = 0
+valid_move?(board, index)
+
+board = [" ", " ", "X", " ", " ", " ", " ", "O", " "]
+index = 5
+valid_move?(board, index)
+
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+index = 4
+valid_move?(board, index)
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+index = 100
+valid_move?(board, index)
