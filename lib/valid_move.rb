@@ -14,7 +14,7 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 0
-position_taken?(board, index)
+puts(position_taken?(board, index))
 valid_move?(board, index)
 
 board = [" ", " ", "X", " ", " ", " ", " ", "O", " "]
