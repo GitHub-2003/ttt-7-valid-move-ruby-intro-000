@@ -19,12 +19,15 @@ puts(valid_move?(board, index))
 
 board = [" ", " ", "X", " ", " ", " ", " ", "O", " "]
 index = 5
-valid_move?(board, index)
+puts(position_taken?(board, index))
+puts(valid_move?(board, index))
 
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 index = 4
-valid_move?(board, index)
+puts(position_taken?(board, index))
+puts(valid_move?(board, index))
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 100
-valid_move?(board, index)
+puts(position_taken?(board, index))
+puts(valid_move?(board, index))
